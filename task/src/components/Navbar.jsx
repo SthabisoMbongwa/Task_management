@@ -6,7 +6,7 @@ const Navbar = function (){
         <nav className='nav'>
             <h1>P</h1>
             <ul>
-                <li><button>Sign In</button></li>
+                <li><button>Log In</button></li>
             </ul>
 
         </nav>

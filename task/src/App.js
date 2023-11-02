@@ -1,11 +1,11 @@
 import './App.css';
 import BodySection from './components/Bodysection';
-import Navbar from './components/Navbar';
+import LandingPage from './components/LandingPage';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <LandingPage />
       <BodySection />
     </div>
   );
