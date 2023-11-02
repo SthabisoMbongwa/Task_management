@@ -1,8 +1,9 @@
 body {
+  color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
   /* background-color: #001425; */
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,8,61,1) 100%, rgba(0,212,255,1) 100%);
+  background: rgb(2, 1, 14);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(2, 2, 31) 100%, rgb(1, 12, 14) 100%);
 }
 
 
@@ -28,7 +29,7 @@ ul li {
 }
 
 nav h1 {
-  color: #FFFFFF;
+ 
   font-size: 70px;
   font-weight: 700;
 }
@@ -42,4 +43,15 @@ button {
   font-weight: 660;
   color: #000;
   border: 3px solid #1441B4;
+}
+
+.body-landing{
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 0 50px;
+}
+
+div h1 {
+  font-weight: 550;
 }
