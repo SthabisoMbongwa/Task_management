@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./Navbar";
 
 const LandingPage = function () {
+  const [email, setEmail] = useState("");
   return (
     <div className="landingPage">
       <Navbar />
@@ -20,7 +21,17 @@ const LandingPage = function () {
             PageMaker including versions of Lorem Ipsum.
           </p>
         </div>
-        <div className="email-area">My name</div>
+
+        <div className="email-area">
+          <form>
+            <input
+              type="text"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+          </form>
+          <button> Submit </button>
+        </div>
       </div>
     </div>
   );
