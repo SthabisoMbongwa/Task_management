@@ -6,7 +6,7 @@ const LandingPage = function () {
     <div className="landingPage">
       <Navbar />
       <div className="body-landing">
-        <div>
+        <div className="landing-content">
           <h1>PRODUCTIVITY ON STEROIDS</h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -20,7 +20,7 @@ const LandingPage = function () {
             PageMaker including versions of Lorem Ipsum.
           </p>
         </div>
-        <div>My name</div>
+        <div className="email-area">My name</div>
       </div>
     </div>
   );

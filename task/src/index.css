@@ -18,10 +18,10 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 95px;
-  /* margin: 0 10px; */
+ 
   padding: 0 20px;
-   border-bottom: #FFF solid 1px; 
-  /* background-color: azure; */
+  border-bottom: #FFF solid 0.05px; 
+ 
 }
 
 ul li {
@@ -45,13 +45,33 @@ button {
   border: 3px solid #1441B4;
 }
 
+.landingPage{
+  height: 85vh;
+}
+
 .body-landing{
   display: flex;
-  grid-template-columns: 1fr 1fr;
+  height: 100%;
   align-items: center;
   margin: 0 50px;
+  overflow: hidden;
 }
+
 
 div h1 {
   font-weight: 550;
+}
+
+.landing-content {
+  width: 50%;
+  margin-right: 10px;
+  /* background-color: #FFF; */
+ 
+  
+}
+
+.email-area {
+  width: 50%;
+  margin-left: 10px;
+  /* background-color: aqua; */
 }
