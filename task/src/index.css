@@ -37,7 +37,7 @@ nav h1 {
 }
 
 button {
-  width: 123px;
+  width: 7.7rem;
   height: 40px;
   background-color: #62BEF5;
   border-radius: 5px;
@@ -48,7 +48,7 @@ button {
 }
 
 .landingPage{
-  height: 85vh;
+  height: 100vh;
 }
 
 .body-landing{
@@ -86,4 +86,20 @@ button {
   border: solid 2px ;
   border: 3px solid #1441B4;
   border-radius: 5px;
+}
+
+/*#########################################################################--VERIFY PAGE--######################################################## */
+
+
+.verify-bodySection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap : 30px;
+  height: 100%;
+}
+
+.verifyPage {
+  height: 100vh;
 }
