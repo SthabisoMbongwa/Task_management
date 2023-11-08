@@ -14,7 +14,7 @@ const VerifyBody = function () {
         <span style={{ color: "#62BEF5" }}> check your spam</span> folder.
       </p>
       <p>Still can't find the email? No problem.</p>
-      <button> Resend Verification Email </button>
+      <button style={{width: '280px'}}> Resend Verification Email </button>
     </div>
   );
 };

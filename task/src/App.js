@@ -12,8 +12,6 @@ function App() {
         <Route path='/' element={<LandingPage />} />
         <Route path='verifypage' element={<VerifyPage />} />
       </Routes>
-      {/* <LandingPage />
-      <VerifyPage /> */}
     </div>
   );
 }
