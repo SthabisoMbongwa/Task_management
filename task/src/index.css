@@ -104,3 +104,8 @@ button {
 .verifyPage {
   height: 90vh;
 }
+
+.btn .sub {
+  text-decoration: none;
+  color: black;
+}

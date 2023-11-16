@@ -1,7 +1,20 @@
 import React, { useState } from "react";
+import {Link} from 'react-router-dom';
+import VerifyPage from "./VerifyPage";
 
 const BodySection = function () {
     const [email, setEmail] = useState("");
+    
+
+    function CallPage(){
+      return(
+        <div>
+          <Link to='/verify' element={<VerifyPage />} />
+        </div>
+      )
+    }
+
+
   return (
     <div className="body-landing">
       <div className="landing-content">
@@ -27,7 +40,7 @@ const BodySection = function () {
             onChange={(e) => setEmail(e.target.value)}
           />
         </form>
-        <button> Submit </button>
+        <button className="btn" type="submit"><Link className="sub" to='/verify' element={<VerifyPage />}> Submit </Link></button>
       </div>
     </div>
   );
